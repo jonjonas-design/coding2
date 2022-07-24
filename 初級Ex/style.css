@@ -1,0 +1,377 @@
+/*---reset---*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*---reset---*/
+
+/*---基本---*/
+html{
+  font-family: 'Noto Sans JP', '游ゴシック','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #444;
+}
+
+p{
+  font-size: 16px;
+}
+
+h2{
+  display: inline-block;
+  font-size: 24px;
+  background: linear-gradient(transparent 65%, #99e5a5 50%);
+  font-weight: bold;
+}
+
+.container{
+  max-width: 1180px;
+  margin: 0 auto;
+	text-align: center;
+}
+
+.top{
+	background-image: url(image/fv.png);
+	background-size: cover;
+	height: 947px;
+}
+
+.top-text{
+	background-color: white;
+	writing-mode: vertical-rl;
+	height: 565px;
+	width: 102px;
+	margin-right: 80px;
+}
+
+.top-p{
+	padding: 18px 37px 0 37px;
+	font-size: 28px;
+	font-weight: bold;
+	line-height: 34px;
+}
+
+.top-p-color{
+	color: #21a937;
+}
+
+.top-container{
+	margin-left: 211px;
+	display: flex;
+	padding-top: 133px;
+}
+
+.about-container{
+	display: flex;
+}
+
+.about-text{
+	margin-top: 193px;
+	margin-left: 31px;
+	margin-right: 44px;
+	margin-bottom: 194px;	
+	text-align: left;
+}
+
+.about-h2{
+	display: inline-block;
+	margin-bottom: 32px;
+}
+
+.about-p{
+	margin-top: 37px;
+	font-size: 16px;
+	line-height: 38px;
+	text-align: left;
+}
+
+.about-img{
+	margin: 162px 0 82px 0;
+	height: 420px;
+}
+
+.menu-container{
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu-time{
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 7px;
+}
+
+.menu{
+	margin-top: 33px;
+	margin-bottom: 35px;
+	text-align: right;
+}
+
+.logo{
+	margin-top: 29px;
+	margin-bottom: 28px;
+}
+
+.phone{
+	color: #21a937;
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+.img-phone{
+	height: 24.57px;
+	width: 24.36px;
+	margin-right: 4.78px;
+	vertical-align: middle;
+}
+
+.contents-h2{
+	margin: 78px auto 70px auto;
+	text-align: center;
+}
+
+.contents-p{
+	font-size: 16px;
+	line-height: 38px;
+	margin-bottom: 34px;
+}
+
+.contents-card{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.card{
+	height: 591px;
+	width: 380px;
+	border: #c9c9c9 2px solid;
+	border-radius: 10px;
+	position: relative;
+}
+
+.card-h3{
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 38px;
+	padding: 40px 0 45px 0;
+}
+
+.card-p{
+	font-weight: bold;
+	line-height: 38px;
+	margin: 0 30px 0 30px;
+	text-align: left;
+}
+
+.card-img{
+	vertical-align: bottom;
+	position: absolute;
+  bottom: 0;
+	left: 97px;
+	right: 96px;
+	margin: 0 auto 0 auto;
+	height: 187px;
+	width: 187px;
+}
+
+.news-h2{
+	margin-top: 81px;
+	margin-bottom: 70px;
+}
+
+.news-bord{
+	padding: 30px 66px 46px 66px;
+	box-shadow: 0px 3px 6px #00000029;
+	border-radius: 30px;
+	width: 1048px;
+}
+
+.bord-line{
+	display: flex;
+	border-bottom: solid 2px #e7e7e7;
+	text-align: center;
+}
+
+.bord-p{
+	font-weight: bold;
+  text-align:center;
+	line-height: 38px;
+	margin: 19.5px 30px 18.5px 0;
+}
+
+.bord-date{
+	color: #21a937;
+}
+
+.bord-category{
+	background-color: #444;
+	color:#fff;
+	font-size: 12px;
+	width: 80px;
+}
+
+.more{
+	text-align: right;
+}
+
+.more-link{
+	display: inline-block;
+	font-weight: bold;
+	text-decoration: none;
+	color: #444;
+	margin-top: 39.5px;
+}
+
+span{
+	height: 10px;
+	width: 14px;
+}
+
+.container-map{
+	margin: 196px 0 163px 0;
+	display: flex;
+	text-align: left;
+}
+
+.map{
+	height: 440px;
+	width: 608px;
+	margin-right: 34px;
+}
+
+.access-logo{
+	height: 73px;
+	width: 263px;
+	margin-bottom: 25px;
+}
+
+.access-info{
+	display: flex;
+	margin-bottom: 25px;
+}
+
+.post{
+	margin-right: 16px;
+	line-height: 38px;
+}
+
+.adress{
+	line-height: 38px;
+}
+
+.access-info2{
+	display: flex;
+}
+
+.access-info2, .img-phone{
+	margin-right: 5.14px;
+}
+
+.schedule{
+	margin-top: 28.5px;
+	border-top: solid 2px #e7e7e7;
+	border-bottom: solid 2px #e7e7e7;
+	width: 533px;
+	padding: 19px 0;
+}
+
+.schedule, p{
+	font-size: 14px;
+}
+
+.open, .close{
+	display: flex;	
+}
+
+.close{
+	margin-top: 20px;
+}
+
+.open-p{
+	margin-right: 28.5px;
+	margin-bottom: 13px;
+	margin-top: 13px;
+}
+
+.close-p{
+	margin-right: 44px;
+	margin-bottom: 13px;
+	margin-top: 13px;
+}
+
+.open-day, .close-day{
+	border-left: solid 2px #e7e7e7;
+	padding-left: 28.5px;
+	margin-right: 23px;
+}
+
+.open-day-p{
+	background: linear-gradient(transparent 65%, #99e5a5 50%);
+}
+
+.open-time-p{
+	margin-right: 17px;
+}
+
+.open-day-p, .open-time-p{
+	margin-bottom: 13px;
+	margin-top: 13px;
+}
+
+.close-day-p{
+	margin-bottom: 13px;
+	margin-top: 13px;
+}
+
+footer{
+	text-align: right;
+	font-size: 11px;
+	line-height: 38px;
+	color: #444;
+	margin-top: 21.5px;
+}
